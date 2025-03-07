@@ -6,7 +6,7 @@ import ParentComponent from './ParentComponent.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
-    {/* <App /> */}
-    <ParentComponent />
+    <App />
+    {/* <ParentComponent /> */}
   </>,
 )

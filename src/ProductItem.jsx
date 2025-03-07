@@ -1,13 +1,13 @@
 import React from 'react'
 
-function ProductItem() {
+function ProductItem(props) {
     return (
         <>
-            <div className="item" key={item.id}>
+            <div className="item" key={props.id}>
                 <div className="content">
-                    <img src={item.image} />
-                    <p>{item.name}</p>
-                    <p>Giá: {item.price}</p>
+                    <img src={props.image} />
+                    <p>{props.name}</p>
+                    <p>Giá: {props.price}</p>
                 </div>
             </div>
         </>
